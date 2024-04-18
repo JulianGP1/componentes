@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Button from '../components/Button.astro';
+---
+
+<Layout title="Welcome to Astro.">
+
+<Button text="Aceptar" />
+
+<Button red >
+    <b class="font-bold" slot="messaje" > Mensaje </b>
+    <span slot="icon">x</span>
+</Button>
+</Layout>
+
+<style>
+</style>
